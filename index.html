@@ -1,0 +1,71 @@
+<!--文档类型-->
+<!doctype html>
+
+<!--HTML元素，lang写明了页面的主要语种-->
+<html lang="en-US">
+
+    <!--
+        head元素，所有不展示的页面成员在这个容器中
+        eg. 关键字，描述，CSS，字符集...
+    -->
+  <head>
+
+    <!--
+        将你的页面链接到一个样式表
+        该样式表将 Open Sans 字体家族与你的网页一起加载
+    -->
+    <link
+    href="https://docs.hpc.sjtu.edu.cn/job/slurm.html?family=Open+Sans"
+    rel="stylesheet" />
+
+
+    <!--CSS-->
+    <link href="styles/style2.css" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+
+    <!--确保页面以视口宽度进行渲染-->
+    <meta name="viewport" content="width=device-width" />
+
+    <!--title元素-->
+    <title>My test page</title>
+  </head>
+  <body>
+
+    <!--一级标题，一般3-4级-->
+    <h1> Title of the image </h1>
+
+    <!--
+        用于向页面中插入图片
+        地址属性：src=""中填入图片地址
+        描述文本（一般不显示）：alt
+        <img>为空元素，没有结束标签
+    -->
+    <img src="images/slurm_pi.png" alt="My test image" />
+
+    <!--
+        class表示元素的属性（？）
+        嵌套元素，eg <strong>突出显示（黑体）
+    -->
+    <p class = "test_attribute"> This is <strong>an</strong> image </p>
+
+    <p> Test List, this is a list including: </p>
+
+    <!--列表元素，无序列表用<ul>，有序列表用<ol>，列表中的元素用<li>包围-->
+    <ul>
+        <li>object 1</li>
+        <li>object 2</li>
+    </ul>
+
+    <ol>
+        <li>object 3</li>
+        <li>object 4</li>
+    </ol>
+
+
+    <p> This is a link </p>
+    <!--链接元素，href属性的值为所需网址-->
+    <a href="https://www.bilibili.com/"> link to bilibili </a>
+
+  </body>
+</html>
